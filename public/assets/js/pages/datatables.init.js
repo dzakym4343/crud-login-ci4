@@ -1,0 +1,2 @@
+$(document).ready(function(){$("#datatable").DataTable({pageLength: 5, aLengthMenu: [1, 5, 10, 15, 25, 50, 75, 100],
+"iDisplayLength": 25}),$("#datatable-buttons").DataTable({pageLength: 5, lengthChange:!1,buttons:["copy","excel","pdf","colvis"]}).buttons().container().appendTo("#datatable-buttons_wrapper .col-md-6:eq(0)"),$(".dataTables_length select").addClass("form-select form-select-sm")});
