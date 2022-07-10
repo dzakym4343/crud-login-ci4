@@ -28,7 +28,7 @@
 
             <!-- start row -->
             <div class="row">
-                <div class="col-6">
+                <div class="col-xl-6">
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title mb-4">Ganti Nama</h4>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-xl-6">
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title mb-4">Ganti Password</h4>
