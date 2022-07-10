@@ -31,6 +31,7 @@
                 <div class="col-6">
                     <div class="card">
                         <div class="card-body">
+                            <h4 class="card-title mb-4">Ganti Nama</h4>
                             <?php if (session()->getFlashdata('name_changed')) : ?>
                                 <div class="alert alert-success" role="alert">
                                     <?= session()->getFlashdata('name_changed'); ?>
